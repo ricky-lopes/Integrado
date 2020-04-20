@@ -1,0 +1,146 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#content {
+    width: 994px;
+    margin: 0 auto;
+}
+nav ul{
+     display: flex;
+    justify-content: center;
+}
+nav ul li{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    color: #4682B4;
+    display: inline-block;
+    padding: 30px 40px 0px 0;
+    cursor: pointer;
+    text-align: center;
+}
+ul li:hover{
+    color:#660000;
+}
+
+#cadastrarUsuario label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#cadastrarUsuario{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#cadastrarAluno label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#cadastrarAluno{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#cadastrarNota label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#cadastrarNota{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#btnCadastrar{
+    margin-top: 5%;
+}
+#btnCadastrarAluno{
+    margin-top: 5%;
+}
+#btnCadastrarNota{
+    margin-top: 5%;
+}
+#alunos{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#cadastrarDisciplina{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#cadastrarDisciplina label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#btnCadastrarDisciplina{
+    margin-top: 5%;
+}
+li{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    color: #4682B4;
+    display: inline-block;
+    padding: 30px 40px 0px 0;
+    cursor: pointer;
+    text-align: center;
+}
+#editarAluno{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#editarAluno label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#btnEditarAluno{
+    margin-top: 5%;
+}
+#excluirAluno{
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+#excluirAluno label{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#btnExcluirAluno{
+    margin-top: 5%;
+}
